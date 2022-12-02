@@ -1,0 +1,408 @@
+body {
+    margin: 0;
+    background: url(../img/fundoLight.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+button {
+    cursor: pointer;
+    text-align:center;
+}
+#menuTop {
+    border-radius: 0 0 15px 15px;
+    border: solid 1px transparent;
+    background-image: linear-gradient(darkgray, white, darkgray), radial-gradient(circle at bottom, magenta, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+#conteudoTotal {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 550px;
+}
+#rodape {
+    border: double 2px transparent;
+    background-image: linear-gradient(white,darkgray), radial-gradient(circle at bottom, magenta, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 15px 15px 0 0;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+#menuL {
+    float: left;
+    border: double 2px transparent;
+    background: linear-gradient(darkgray, white, darkgray), radial-gradient(circle at bottom, magenta, cyan);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 15px;
+    width: 220px;
+    margin: 1%;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+#conteudoCentral {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 1%;
+    width: 700px;
+}
+/* campo de busca inicia */
+#campBusca {
+    margin: 8px;
+    width: 200px;
+    height: 40px;
+}
+#campBuscaInserir {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(#1c1c1c,purple 30px,#1c1c1c);
+    border: solid 1px darkgray;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#campBuscaInserir:focus {
+    outline: none;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 30px blueviolet;
+}
+#campBuscaInserir::placeholder {
+    text-align: center;
+    color: grey;
+}
+
+#confirmaBusca {
+    float: right;
+    width: 50px;
+    height: 40px;
+    background: black;
+    border: solid 1px darkgray;
+    border-radius: 0 20px 20px 0;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#confirmaBusca:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px blueviolet;
+    text-shadow: 0 0 30px blueviolet;
+    color: blueviolet;
+}
+/* campo de busca termina */
+/* conteudo principal inicia */
+#menuConteudoCentral {
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* botoes elementos inicia */
+#btnToxina {
+    margin: 1px;
+    border: solid 2px lime;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: lime;
+    font-size: 15px;
+}
+#btnToxina:hover {
+    text-shadow: 0 0 50px lime;
+    box-shadow: 0 0 15px lime;
+    border-radius: 0 0 0 15px;
+}
+#btnEletrico {
+    margin: 1px;
+    border: solid 2px mediumpurple;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color:mediumpurple;
+    font-size: 15px;
+}
+#btnEletrico:hover {
+    text-shadow: 0 0 50px mediumpurple;
+    box-shadow: 0 0 15px mediumpurple;
+    border-radius: 0 0 0 0;
+}
+#btnMagnetismo {
+    margin: 1px;
+    border: solid 2px darkgray;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color:darkgray;
+    font-size: 15px;
+}
+#btnMagnetismo:hover {
+    text-shadow: 0 0 50px darkgray;
+    box-shadow: 0 0 15px darkgray;
+    border-radius: 0 0 0 0;
+}
+#btnRadiacao {
+    margin: 1px;
+    border: solid 2px yellow;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: yellow;
+    font-size: 15px;
+}
+#btnRadiacao:hover {
+    text-shadow: 0 0 50px yellow;
+    box-shadow: 0 0 15px yellow;
+    border-radius: 0 0 0 0;
+}
+#btnGlacial {
+    margin: 1px;
+    border: solid 2px royalblue;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: royalblue;
+    font-size: 15px;
+}
+#btnGlacial:hover {
+    text-shadow: 0 0 50px royalblue;
+    box-shadow: 0 0 15px royalblue;
+    border-radius: 0 0 0 0;
+}
+#btnIgnio {
+    margin: 1px;
+    border: solid 2px chocolate;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: chocolate;
+    font-size: 15px;
+}
+#btnIgnio:hover {
+    text-shadow: 0 0 50px chocolate;
+    box-shadow: 0 0 15px chocolate;
+    border-radius: 0 0 0 0;
+}
+#btnGasoso {
+    margin: 1px;
+    border: solid 2px mediumaquamarine;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: mediumaquamarine;
+    font-size: 15px;
+}
+#btnGasoso:hover {
+    text-shadow: 0 0 50px mediumaquamarine;
+    box-shadow: 0 0 15px mediumaquamarine;
+    border-radius: 0 0 0 0;
+}
+#btnCorrosivo {
+    margin: 1px;
+    border: solid 2px yellowgreen;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: yellowgreen;
+    font-size: 15px;
+}
+#btnCorrosivo:hover {
+    text-shadow: 0 0 50px yellowgreen;
+    box-shadow: 0 0 15px yellowgreen;
+    border-radius: 0 0 0 0;
+}
+#btnViral {
+    margin: 1px;
+    border: solid 2px violet;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: violet;
+    font-size: 15px;
+}
+#btnViral:hover {
+    text-shadow: 0 0 50px violet;
+    box-shadow: 0 0 15px violet;
+    border-radius: 0;
+}
+#btnColisivo {
+    margin: 1px;
+    border: solid 2px cadetblue;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: cadetblue;
+    font-size: 15px;
+}
+#btnColisivo:hover {
+    text-shadow: 0 0 50px cadetblue;
+    box-shadow: 0 0 15px cadetblue;
+    border-radius: 0 0 15px 0;
+}
+/* botoes elementos termina */
+/* Display */
+.Display {
+    overflow-y:scroll;
+    max-height: 400px;
+    margin-top: 30px;
+    border: solid 1px;
+    border-radius: 20px;
+    display: none;
+    background: linear-gradient(#1c1c1c,black, #1c1c1c);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Display::-webkit-scrollbar {
+    background: transparent;
+}
+/* conteudo principal termina */
+/* troca de conteudo */
+#contDamage {
+    display: none;
+}
+#contArmasTK {
+    display: none;
+}
+#contEfemerasTK {
+    display: none;
+}
+#contProgenitores {
+    display: none;
+}
+#btn-contDamage {
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: rgb(14, 161, 197);
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-contDamage:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(78, 190, 235);
+}
+#btn-armasTK {
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: rgb(14, 161, 197);
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-armasTK:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(78, 190, 235);
+}
+#btn-efemerasTK{
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: rgb(14, 161, 197);
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-efemerasTK:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(78, 190, 235);
+}
+#btn-Progenitores {
+    width: 200px;
+    height: 50px;
+    margin: 8px;
+    background: linear-gradient(black, #1c1c1c,black);
+    border-radius: 20px;
+    border: solid 1px white;
+    color: rgb(14, 161, 197);
+    font-weight: bolder;
+    text-decoration: none !important;
+    font-family: serif;
+    font-size: 20px;
+}
+#btn-Progenitores:hover {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(#1c1c1c, black, #1c1c1c);
+    text-shadow: 0 0 30px rgb(78, 190, 235);
+    box-shadow: 0 0 15px rgb(78, 190, 235);
+}
+
+/* menu conteudo armas tenet/kuva */
+
+#armasTenet {
+    margin: 1px;
+    border: solid 2px lightblue;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: lightblue;
+    font-size: 15px;
+}
+#armasTenet:hover {
+    text-shadow: 0 0 50px lightblue;
+    box-shadow: 0 0 15px lightblue;
+    border-radius: 0 0 0 15px;
+}
+#armasKuva{
+    margin: 1px;
+    border: solid 2px red;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(black, #1c1c1c,black);
+    height: 46px;
+    color: red;
+    font-size: 15px;
+}
+#armasKuva:hover{
+    text-shadow: 0 0 50px red;
+    box-shadow: 0 0 15px red;
+    border-radius: 0 0 15px 0;
+}
+
+/* conteudo armas tenet/kuva */
+#conteudoArmaTenet {
+    border: solid 1px lightblue;
+    color: lightblue;
+}
+#conteudoArmaKuva {
+    border: solid 1px red;
+    color: red;
+}

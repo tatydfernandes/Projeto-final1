@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="/img/logoico.png">
+        <link id="theme" rel="stylesheet" href="css/LightMode.css">
+        <link rel="stylesheet" href="css/otherConfig.css">
+        <script defer="defer" src="js/configs.js"></script>
+        <title>Warframe guia</title>
+    </head>
+    <body>
+        <div id="menuTop">
+            <div id="trocaTema">
+                <button id="btnDarkMode">DARK<img src="./img/Kuva.png" width="15px"></button>
+                <button id="btnLightMode">LIGHT<img src="./img/Tenet.png" width="15px"></button>
+            </div>
+            <img src="./img/logo.png">
+        </div>
+        <div id="conteudoTotal">
+            <div id="menuL">
+                <form id="campBusca" method="get">
+                    <input type="text" id="campBuscaInserir" placeholder="Buscar...">
+                    <input type="submit" id="confirmaBusca" value="OK">
+                </form>
+                <button id="btn-contDamage">Danos elementais</button>
+                <button id="btn-armasTK">Armas Tenet/Kuva</button>
+                <button id="btn-efemerasTK">Efêmeras Tenet/Kuva</button>
+                <button id="btn-Progenitores">Progenitores</button>
+            </div>
+            <div id="conteudoCentral">
+                <div id="contDamage">
+                    <div id="menuConteudoCentral">
+                        <button id="btnToxina"><img src="./img/Elementos/icoToxico.png" width="40px"></button>
+                        <button id="btnGlacial"><img src="./img/Elementos/icoGlacial.png" width="40px"></button>
+                        <button id="btnEletrico"><img src="./img/Elementos/icoEletrico.png" width="40px"></button>
+                        <button id="btnRadiacao"><img src="./img/Elementos/icoRadiaçao.png" width="40px"></button>
+                        <button id="btnMagnetismo"><img src="./img/Elementos/icoMagnetico.png" width="40px"></button>
+                        <button id="btnIgnio"><img src="./img/Elementos/icoIgnio.png" width="40px"></button>
+                        <button id="btnGasoso"><img src="./img/Elementos/icoGasoso.png" width="40px"></button>
+                        <button id="btnCorrosivo"><img src="./img/Elementos/icoCorrosivo.png" width="40px"></button>
+                        <button id="btnViral"><img src="./img/Elementos/icoViral.png" width="40px"></button>
+                        <button id="btnColisivo"><img src="./img/Elementos/icoColisivo.png" width="40px"></button>
+                    </div>
+                    <div id="conteudoToxina" class="Display">
+                        <h1>Dano Tóxico</h1>
+                        <img src="./img/Elementos/symbolToxina.png" width="150px">
+                        <p>Apresenta maior eficácia contra inimigos Corpus orgânicos, pois despreza
+                            escudos. O Efeito de Status Tóxico daz com que o alvo afetado receba dano por um
+                            curto período.</p>
+                    </div>
+                    <div id="conteudoGlacial" class="Display">
+                        <h1>Dano Glacial</h1>
+                        <img src="./img/Elementos/symbolGlacial.png" width="150px">
+                        <p>Apresenta maior eficácia contra Escudos. O Efeito de Status Glacial reduz a
+                            velocidade de movimentos dos alvos afetados em até 75%.</p>
+                    </div>
+                    <div id="conteudoEletrico" class="Display">
+                        <h1>Dano Elétrico</h1>
+                        <img src="./img/Elementos/symbolEletrico.png" width="150px">
+                        <p>Apresenta maior eficácia contra seres robóticos. O Efeito de Status Elétrico
+                            se espalha entre os inimigos próximos, atordoando os alvos afetados e causando
+                            dano extra.</p>
+                    </div>
+                    <div id="conteudoRadiacao" class="Display">
+                        <h1>Dano Radioativo</h1>
+                        <img src="./img/Elementos/symbolRadiação.png" width="150px">
+                        <p>Produzido a partir da combinação de Dano Ígnio e Elétrico. Apresenta maior
+                            eficácia contra Armaduras de Liga. O Efeito de Status Radioativo confunde os
+                            alvos afetados, fazendo com que ataquem quaisquer unidades ao seu alcance, de
+                            forma randômica.</p>
+                    </div>
+                    <div id="conteudoMagnetismo" class="Display">
+                        <h1>Dano Magnético</h1>
+                        <img src="./img/Elementos/symbolMagnetico.png" width="150px">
+                        <p>Produzido a partir da combinação de Dano Glacial e Elétrico. Apresenta maior
+                            eficácia contra Escudos. O Efeito de Status Magnético desabilita a regeneração
+                            de Escudos e amplia o dano recebido nos Escudos dos alvos afetados em até 325%.</p>
+                    </div>
+                    <div id="conteudoIgnio" class="Display">
+                        <h1>Dano Ígnio</h1>
+                        <img src="./img/Elementos/symbolIgnio.png" width="150px">
+                        <p>Apresenta maior eficácia contra carne Infestada. O Efeito de Status Ígnio faz
+                            com que o alvo afetado queime, reduzindo levemente a sua armadura e fazendo com
+                            que receba dano por um curto período.</p>
+                    </div>
+                    <div id="conteudoGasoso" class="Display">
+                        <h1>Dano Gasoso</h1>
+                        <img src="./img/Elementos/SymbolGasoso.png" width="150px">
+                        <p>Produzido da combinação de Dano Ígnio e Tóxico. Apresenta maior eficácia
+                            contra a maioria dos inimigos Infestados. O Efeito de Status Gasoso, por um
+                            curto período, provoca uma nuvem tóxica que causa dano ao alvo afetado e às
+                            unidades inimigas próximas.</p>
+                    </div>
+                    <div id="conteudoCorrosivo" class="Display">
+                        <h1>Dano Corrosivo</h1>
+                        <img src="./img/Elementos/symbolCorrosivo.png" width="150px">
+                        <p>Produzido a partir da combinação de Dano Tóxico e Elétrico. Apresenta maior
+                            eficácia contra Armadura de Ferrite. O Efeito de Status Corrosivo remove,
+                            temporáriamente, até 80% da Armadura do alvo afetado.</p>
+                    </div>
+                    <div id="conteudoViral" class="Display">
+                        <h1>Dano Viral</h1>
+                        <img src="./img/Elementos/symbolViral.png" width="150px">
+                        <p>Produzido a partir da combinação de Dano Glacial e Tóxico. Apresenta maior
+                            eficácia contra clones Grinner. O Efeito de Status Viral amplia o dano à Vida
+                            dos alvos afetados em até 325%.</p>
+                    </div>
+                    <div id="conteudoColisivo" class="Display">
+                        <h1>Dano Colisivo</h1>
+                        <img src="./img/Elementos/symbolColisivo.png" width="150px">
+                        <p></p>
+                    </div>
+                </div>
+                <div id="contArmasTK">
+                    <div id="menuConteudoCentral">
+                        <button id="armasTenet">Tenet</button>
+                        <button id="armasKuva">Kuva</button>
+                    </div>
+                    <div id="conteudoArmaTenet" class="Display">
+                        <h1>Armas Tenet<img src="./img/Tenet.png"></h1>
+                    </div>
+                    <div id="conteudoArmaKuva" class="Display">
+                        <h1>Armas Kuva<img src="./img/Kuva.png"></h1>
+                    </div>
+                </div>
+                <div id="contEfemerasTK">teste contEfemerasTK</div>
+                <div id="contProgenitores">teste P</div>
+            </div>
+        </div>
+        <div id="rodape">
+            <a href="https://warframe.market/"><img
+                src="./img/logo-black.png"
+                width="150px"
+                style="margin-left: 20px; margin-right: 20px;"></a>
+            <a href="https://www.warframe.com/pt-br"><img
+                src="./img/logo-warframe-oficial.png"
+                width="150px"
+                style="margin-left: 20px;"></a>
+        </div>
+    </body>
+</html>
