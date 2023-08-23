@@ -1,34 +1,37 @@
-#conteudoToxina {
-    color: lime;
-    box-shadow: 0 0 10px lime;
+#conteudoToxico {
+    color: rgb(29, 157, 180);
+    box-shadow: 0 0 10px rgb(29, 157, 180);
 }
 #conteudoGlacial {
-    color:royalblue;
-    box-shadow: 0 0 10px royalblue;    
+    color:chocolate;
+    box-shadow: 0 0 10px chocolate;    
 }
 #conteudoEletrico {
-    color: mediumpurple;
-    box-shadow: 0 0 10px mediumpurple;
+    color: rgb(37, 5, 126);
+    box-shadow: 0 0 10px rgb(37, 5, 126);
 }
 #conteudoRadiacao {
+    color: yellowgreen;
+    box-shadow: 0 0 10px yellowgreen;
+}
+#conteudoMagnetismo {
     color: yellow;
     box-shadow: 0 0 10px yellow;
 }
-#conteudoMagnetismo {
-    color: darkgray;
-    box-shadow: 0 0 10px darkgray;
-}
 #conteudoIgnio {
-    color:chocolate;
-    box-shadow: 0 0 10px chocolate;
-}
-#conteudoGasoso {
-    color: mediumaquamarine;
+    color:mediumaquamarine;
     box-shadow: 0 0 10px mediumaquamarine;
 }
+#conteudoGasoso {
+    color: violet;
+    box-shadow: 0 0 10px violet;
+}
+
+
+
 #conteudoCorrosivo {
-    color: yellowgreen;
-    box-shadow: 0 0 10px yellowgreen;
+    color: violet;
+    box-shadow: 0 0 10px violet;
 }
 #conteudoViral {
     color: violet;
@@ -37,34 +40,4 @@
 #conteudoColisivo {
     color: cadetblue;
     box-shadow: 0 0 10px cadetblue;
-}
-
-/*botoes dark mode e light mode abaixo*/
-#trocaTema {
-    margin: 3px;
-    height: 50px;
-    width: 84px;
-    left:0;
-    position: absolute;
-}
-#btnDarkMode {
-    margin: 1px;
-    font-size: 10px;
-    background: linear-gradient(black, #1c1c1c,black);
-    height: 40px;
-    width: 40px;
-    color:red;
-    border: solid 1px red;
-    border-radius: 15px;
-}
-#btnLightMode {
-    margin: 1px;
-    font-size: 10px;
-    background: linear-gradient(#1c1c1c, darkslategray, #1c1c1c);
-    height: 40px;
-    width: 40px;
-    color: cyan;
-    border: solid 1px cyan;
-    border-radius: 15px;
-    float: right;
 }
