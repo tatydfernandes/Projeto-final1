@@ -28,9 +28,6 @@ var buttonRadiacao = document.querySelector("#btnRadiacao");
 var buttonMagnetismo = document.querySelector("#btnMagnetismo");
 var buttonIgnio = document.querySelector("#btnIgnio");
 var buttonGasoso = document.querySelector("#btnGasoso");
-var buttonCorrosivo = document.querySelector("#btnCorrosivo");
-var buttonViral = document.querySelector("#btnViral");
-var buttonColisivo = document.querySelector("#btnColisivo");
 
 var conteudoToxina = document.querySelector("#conteudoToxina");
 var conteudoGlacial = document.querySelector("#conteudoGlacial");
@@ -39,9 +36,6 @@ var conteudoRadiacao = document.querySelector("#conteudoRadiacao");
 var conteudoMagnestismo = document.querySelector("#conteudoMagnetismo");
 var conteudoIgnio = document.querySelector("#conteudoIgnio");
 var conteudoGasoso = document.querySelector("#conteudoGasoso");
-var conteudoCorrosivo = document.querySelector("#conteudoCorrosivo");
-var conteudoViral = document.querySelector("#conteudoViral");
-var conteudoColisivo = document.querySelector("#conteudoColisivo");
 
 
 buttonToxina.addEventListener('click', function () {
@@ -54,9 +48,6 @@ buttonToxina.addEventListener('click', function () {
         conteudoMagnestismo.style.display = 'none';
         conteudoIgnio.style.display = 'none';
         conteudoGasoso.style.display = 'none';
-        conteudoCorrosivo.style.display = 'none';
-        conteudoViral.style.display = 'none';
-        conteudoColisivo.style.display = 'none';
     } else {
         conteudoToxina.style.display = 'block';
         conteudoGlacial.style.display = 'none';
@@ -65,9 +56,6 @@ buttonToxina.addEventListener('click', function () {
         conteudoMagnestismo.style.display = 'none';
         conteudoIgnio.style.display = 'none';
         conteudoGasoso.style.display = 'none';
-        conteudoCorrosivo.style.display = 'none';
-        conteudoViral.style.display = 'none';
-        conteudoColisivo.style.display = 'none';
     }
 });
 
@@ -81,9 +69,6 @@ buttonGlacial.addEventListener('click', function () {
         conteudoMagnestismo.style.display = 'none';
         conteudoIgnio.style.display = 'none';
         conteudoGasoso.style.display = 'none';
-        conteudoCorrosivo.style.display = 'none';
-        conteudoViral.style.display = 'none';
-        conteudoColisivo.style.display = 'none';
     } else {
         conteudoGlacial.style.display = 'block';
         conteudoToxina.style.display = 'none';
@@ -92,9 +77,6 @@ buttonGlacial.addEventListener('click', function () {
         conteudoMagnestismo.style.display = 'none';
         conteudoIgnio.style.display = 'none';
         conteudoGasoso.style.display = 'none';
-        conteudoCorrosivo.style.display = 'none';
-        conteudoViral.style.display = 'none';
-        conteudoColisivo.style.display = 'none';
     }
 });
 
@@ -108,9 +90,6 @@ buttonEletrico.addEventListener('click', function () {
         conteudoMagnestismo.style.display = 'none';
         conteudoIgnio.style.display = 'none';
         conteudoGasoso.style.display = 'none';
-        conteudoCorrosivo.style.display = 'none';
-        conteudoViral.style.display = 'none';
-        conteudoColisivo.style.display = 'none';
     } else {
         conteudoEletrico.style.display = 'block';
         conteudoToxina.style.display = 'none';
@@ -119,9 +98,6 @@ buttonEletrico.addEventListener('click', function () {
         conteudoMagnestismo.style.display = 'none';
         conteudoIgnio.style.display = 'none';
         conteudoGasoso.style.display = 'none';
-        conteudoCorrosivo.style.display = 'none';
-        conteudoViral.style.display = 'none';
-        conteudoColisivo.style.display = 'none';
     }
 });
 
@@ -135,9 +111,6 @@ buttonRadiacao.addEventListener('click', function () {
         conteudoMagnestismo.style.display = 'none';
         conteudoIgnio.style.display = 'none';
         conteudoGasoso.style.display = 'none';
-        conteudoCorrosivo.style.display = 'none';
-        conteudoViral.style.display = 'none';
-        conteudoColisivo.style.display = 'none';
     } else {
         conteudoRadiacao.style.display = 'block';
         conteudoToxina.style.display = 'none';
@@ -146,9 +119,6 @@ buttonRadiacao.addEventListener('click', function () {
         conteudoMagnestismo.style.display = 'none';
         conteudoIgnio.style.display = 'none';
         conteudoGasoso.style.display = 'none';
-        conteudoCorrosivo.style.display = 'none';
-        conteudoViral.style.display = 'none';
-        conteudoColisivo.style.display = 'none';
     }
 });
 
